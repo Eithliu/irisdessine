@@ -1,4 +1,4 @@
-baseurl = "https://master--irisdessine.netlify.app/"
+baseurl = "https://irisdessine.netlify.app/"
 DefaultContentLanguage = "fr"
 title = "irisimages"
 theme = "beautifulhugo"
