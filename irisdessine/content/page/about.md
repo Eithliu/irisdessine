@@ -1,6 +1,6 @@
 ---
 title: A Propos
-subtitle: Why you'd want to go on a date with me
+subtitle: Ce que vous allez savoir sur moi.
 comments: false
 ---
 
