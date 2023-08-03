@@ -21,7 +21,7 @@ Concrètement, ça signifie qu'on doit re-rendre le composant.
 
 > Alors, tout d'abord, c'est mon collègue qui m'a montré ça, il ne garantit pas le fait que ce soit une bonne pratique, néanmoins, sur la doc de Vue, ça semble être la bonne chose à faire.
 
-Et ben en React comme en Vue, il faut utiliser key en attribut d'une balise, il est recommandé d'ajouter une key qui soit unique. Ca permet à Vue (et à React) d'identifier le composant en question. Alors, pour recharger (ou reset) notre composant, il suffira de changer la valeur de la key, pour "forcer" à le recharger. Attention, une key, on a tendance à y mettre un index, ou un id, bref, un _integer_, mais ici, je parle d'une key vraiment unique comme par exemple le nom de notre element, donc
+Et ben en React comme en Vue, il faut utiliser key en attribut d'une balise, il est recommandé d'ajouter une key qui soit unique. Ca permet à Vue (et à React) **d'identifier** le composant en question. Alors, pour recharger (ou reset) notre composant, il suffira de changer la valeur de la key, pour "forcer" à le recharger. Attention, une key, on a tendance à y mettre un index, ou un id, bref, un _integer_, mais ici, je parle d'une key vraiment unique comme par exemple le nom de notre element, donc
 
 ```javascript
 <MyComponent :key="{element.name}" />
